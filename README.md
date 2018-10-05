@@ -27,3 +27,28 @@ Three files are being generated:
 
 <h2>Usage:</h2>
 
+<h4>Compilation</h4>
+To compile, run:
+```
+make
+```
+in the command line (in the folder of the files)
+
+<h4>Assembling files</h4>
+```
+assembler FILENAME1 FILENAME2 FILENAME3
+```
+you can run how many files you want at once, just seperate with spaces. 
+note:
+the name of the files should end with ".as" suffix, but when running dont write the end. 
+
+<h4>Example:</h4>
+if the name of the file is "fileToAssemble.as" and "anotherFile.as", run:
+```
+assembler fileToAssemble anotherFile
+```
+
+if there where no errors in the files, the output will be:
+1. fileToAssemble.ob
+2. fileToAssemble.ext
+3. fileToAssemble.ent
