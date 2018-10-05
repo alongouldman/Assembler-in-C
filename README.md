@@ -9,18 +9,14 @@ the lexer reads the text and translates it into tokens, and the parser translate
 tokens to machine code.
 
 memory word structure:
-
+```
 +----------------+------------------+---------+------------------+------------------+-------+
-
 | 13     12      |    11     10     | 9 8 7 6 |    5    4        |     3    2       |  1  0 |
-
 +----------------+------------------+---------+------------------+------------------+-------+
-
 |first Parameter | second Parameter | opcode  | source           | destination      | E,R,A |
 |                |                  |         | addressing mode  | addressing modes |       |
-
 +----------------+------------------+---------+------------------+------------------+-------+
-
+```
 <h2>Output</h2>
 
 Three files are being generated:
