@@ -29,13 +29,9 @@ Three files are being generated:
 
 <h4>Compilation</h4>
 To compile, run:
-```
-make
-```
 
 ```
 make
-
 ```
 
 
