@@ -38,9 +38,6 @@ make
 in the command line (in the folder of the files)
 
 <h4>Assembling files</h4>
-```
-assembler FILENAME1 FILENAME2 FILENAME3
-```
 
 ```
 assembler FILENAME1 FILENAME2 FILENAME3
@@ -52,6 +49,7 @@ the name of the files should end with ".as" suffix, but when running dont write 
 
 <h4>Example:</h4>
 if the name of the file is "fileToAssemble.as" and "anotherFile.as", run:
+
 ```
 assembler fileToAssemble anotherFile
 ```
