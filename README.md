@@ -1,5 +1,5 @@
 <h1>Assembler in C</h1>
-
+line
 This is an assembler, tranlating the assembly language to machine code (0 and 1 bits of memory "words").
 
 this is an assembler. this program translates an assembly code, into a machine code.
